@@ -17,21 +17,21 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            Welcome to YUPPTV&nbsp;
+            {/* <code className={styles.code}>pages/index.js</code> */}
           </p>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://twitter.com/yoursnataraj"
               target="_blank"
               rel="noopener noreferrer"
             >
               By{' '}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/images/twitter.png"
+                alt="Twitter Icon"
                 className={styles.vercelLogo}
-                width={100}
+                width={24}
                 height={24}
                 priority
               />
@@ -42,8 +42,8 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
+            src="/images/yupptv.jpg"
+            alt="YUPPTV Logo"
             width={180}
             height={37}
             priority
@@ -52,59 +52,58 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.yupptv.com/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              Details <span>-&gt;</span>
             </h2>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Find the end less entertainment &nbsp; in our YUPPTV.COM.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/login"
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Login <span>-&gt;</span>
             </h2>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              To work with us, please login &nbsp; to our world!
             </p>
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/register"
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Register <span>-&gt;</span>
             </h2>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              If you're not registered yet, please &nbsp; do it now.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Developer <span>-&gt;</span>
             </h2>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Developed by Nataraja Murthy with&nbsp; the help of NEXT JS.
             </p>
           </a>
         </div>
